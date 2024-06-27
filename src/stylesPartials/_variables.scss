@@ -1,0 +1,56 @@
+// Color Pallete
+
+// primary colors
+
+$color-primary-yellow: #fcff4b;
+$color-primary-orange: #ffad05;
+$color-primary-red: #de240c;
+$color-primary-green: #06d6a0;
+$color-primary-blue: #5995ed;
+$color-primary-white: #ffffff;
+
+// secondary colors
+
+$color-secondary-black: #0d1117;
+$color-secondary-dark-grey: #212932;
+$color-secondary-light-blue: #63aac8;
+$color-secondary-light-blue: #34b3e9;
+$color-secondary-dark-blue: #044389;
+
+// typography - mobile
+
+$mob-font-heading: 5rem;
+$mob-font-sub-heading: 3.4rem;
+$mob-font-logo: 2.6rem;
+$mob-font-text-big: 2.4rem;
+$mob-font-text: 2.1rem;
+$mob-font-body: 1.8rem;
+
+// PADDING OR MARGIN - MOBILE
+
+$spacing-big: 2.4rem;
+$spacing-small: 0.8rem;
+
+$padding-big: 1.6rem;
+$padding-small: 1.2rem;
+
+// BUTTONS
+
+$button-height: 4rem;
+$button-width-tablet: 15rem;
+$button-width-mobile: 3.2rem;
+$button-radius: 4px;
+$button-radius: 8px;
+$image-radius: 16px;
+
+// DIVIDER
+
+$divider-color: $color-secondary-black;
+$divider-width: 1px;
+
+// SCREEN SIZE - TABLET & DESKTOP
+
+$breakpoint-mobile: 375px;
+$breakpoint-tablet: 768px;
+$breakpoint-tablet-landscape: 940px;
+$breakpoint-desktop: 1279px;
