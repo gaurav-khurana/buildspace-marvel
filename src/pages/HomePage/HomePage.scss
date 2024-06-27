@@ -1,0 +1,21 @@
+@use "../../stylesPartials/global";
+@use "../../stylesPartials/typography";
+@use "../../stylesPartials/mixins" as *;
+@use "../../stylesPartials/variables" as *;
+
+div {
+  height: 100vh;
+  width: 100vw;
+
+  background: rgb(230, 36, 41);
+  background: linear-gradient(
+    200deg,
+    rgba(230, 36, 41, 1) 0%,
+    rgba(141, 22, 25, 1) 18%,
+    rgba(0, 0, 0, 1) 95%
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: $color-primary-white;
+}
