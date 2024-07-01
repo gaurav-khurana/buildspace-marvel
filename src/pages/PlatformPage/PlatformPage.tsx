@@ -7,13 +7,12 @@ import PrimeIcon from "../../assets/icons/logo-primevideo.jpeg";
 function PlatformPage() {
   return (
     <>
-      <div>PlatformPage</div>
       <div className="homepage">
         <div className="homepage-container">
           <Link to={"/disney"}>
             <article className="homepage__card">
               <img
-                className="homepage__img"
+                className="homepage__image"
                 src={DisneyIcon}
                 alt="DisneyIcon"
               />
@@ -24,7 +23,7 @@ function PlatformPage() {
           <Link to={"/netflix"}>
             <article className="homepage__card">
               <img
-                className="homepage__img"
+                className="homepage__image"
                 src={NetflixIcon}
                 alt="NetflixIcon"
               />
@@ -34,7 +33,11 @@ function PlatformPage() {
 
           <Link to={"/primevideo"}>
             <article className="homepage__card">
-              <img className="homepage__img" src={PrimeIcon} alt="PrimeIcon" />
+              <img
+                className="homepage__image"
+                src={PrimeIcon}
+                alt="PrimeIcon"
+              />
               <h2 className="homepage__title">Marvel @ PrimeVideo</h2>
             </article>
           </Link>

@@ -1,5 +1,6 @@
-// TYPOGRAPHY
+@use "../stylesPartials/variables" as *;
 
+// TYPOGRAPHY
 @font-face {
   font-family: "Marvel";
   src: url("../assets/fonts/Marvel-Regular.woff2");
@@ -26,18 +27,18 @@
 //   font-weight: 600;
 // }
 
-// .job-form__title {
-//   font-size: $mob-font-sub-heading;
-//   line-height: 4rem;
-//   font-weight: 600;
-// }
+.App-title,
+.homepage__title {
+  font-size: $mob-font-sub-heading;
+  line-height: 4rem;
+  font-weight: 600;
+}
 
-// .navbar__title,
-// .jobDetails__title {
-//   font-size: $mob-font-logo;
-//   line-height: 2.3rem;
-//   font-weight: 600;
-// }
+.show {
+  font-size: $mob-font-logo;
+  line-height: 2.3rem;
+  font-weight: 600;
+}
 
 // .homepage__subtext,
 // .login-form__label,

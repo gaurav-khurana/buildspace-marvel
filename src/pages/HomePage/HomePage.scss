@@ -14,27 +14,51 @@ main {
     rgba(141, 22, 25, 1) 18%,
     rgba(0, 0, 0, 1) 95%
   );
+  background: url("../../assets/images/Marvel-home.jpg");
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 
-  color: $color-primary-white;
-
-  @include flexbox(column, center, center);
-}
-
-h1,
-h3 {
-  font-size: 40px;
+  @include flexbox(column, flex-start, center);
 }
 
 .App-title {
-  // color: $color-white;
-  margin-top: 55vh;
-  margin-left: 39vw;
+  color: $color-primary-white;
+  margin-top: 58vh;
+  margin-left: 5rem;
+  text-decoration: none;
   transition: 0.3s;
 
   &:hover {
-    // color: $color-yellow;
+    color: $color-primary-yellow;
     transform: scale(1.1);
+    text-decoration: underline;
   }
+}
+
+a {
+  text-decoration: none;
+}
+
+.countries {
+  width: 30vw;
+  margin-left: 60vw;
+  @include flexbox(row, space-evenly, center);
+}
+
+.btn {
+  width: 10vw;
+  height: 5rem;
+  background-color: $color-secondary-black;
+  border: 0;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $color-secondary-black;
+  }
+}
+.dropdown-item {
+  width: 10vw;
+  height: 4rem;
 }
