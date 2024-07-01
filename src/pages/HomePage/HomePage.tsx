@@ -14,6 +14,9 @@ function HomePage() {
           <h1>BUILDSPACE MARVEL PROJECT</h1>
           <h3>Coming soon !!!</h3>
         </div>
+        <a href="/home">
+          <h1 className="App-title">Enter Marvel Universe</h1>
+        </a>
       </main>
     </>
   );

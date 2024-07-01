@@ -26,3 +26,15 @@ h1,
 h3 {
   font-size: 40px;
 }
+
+.App-title {
+  // color: $color-white;
+  margin-top: 55vh;
+  margin-left: 39vw;
+  transition: 0.3s;
+
+  &:hover {
+    // color: $color-yellow;
+    transform: scale(1.1);
+  }
+}
