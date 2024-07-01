@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "title": "Black Widow",
+    "year": 2021,
+    "description": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy, and the broken relationships left in her wake long before she became an Avenger.",
+    "platform": "Disney+",
+    "leadCharacters": ["Natasha Romanoff", "Yelena Belova"]
+  },
+  {
+    "id": 2,
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "year": 2021,
+    "description": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
+    "platform": "Disney+",
+    "leadCharacters": ["Shang-Chi", "Xialing"]
+  },
+  {
+    "id": 3,
+    "title": "Eternals",
+    "year": 2021,
+    "description": "The Eternals, a race of immortal beings with superhuman powers who have secretly lived on Earth for thousands of years, reunite to battle the evil Deviants.",
+    "platform": "Disney+",
+    "leadCharacters": ["Ajak", "Ikaris"]
+  },
+  {
+    "id": 4,
+    "title": "Spider-Man: No Way Home",
+    "year": 2021,
+    "description": "Peter Parker's world is turned upside down when his identity as Spider-Man is revealed, forcing him to seek help from Doctor Strange. However, when a spell goes wrong, villains from other dimensions start to appear, threatening everything he holds dear.",
+    "platform": "Netflix",
+    "leadCharacters": ["Peter Parker", "Doctor Strange"]
+  },
+  {
+    "id": 5,
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "year": 2022,
+    "description": "Doctor Strange teams up with Scarlet Witch to confront dark forces from parallel dimensions.",
+    "platform": "Netflix",
+    "leadCharacters": ["Doctor Strange", "Scarlet Witch"]
+  },
+  {
+    "id": 6,
+    "title": "Thor: Love and Thunder",
+    "year": 2022,
+    "description": "Thor teams up with Jane Foster, who transforms into the mighty Thor, to battle an ancient enemy.",
+    "platform": "Netflix",
+    "leadCharacters": ["Thor", "Jane Foster"]
+  },
+  {
+    "id": 7,
+    "title": "Black Panther: Wakanda Forever",
+    "year": 2022,
+    "description": "The kingdom of Wakanda faces turmoil as they mourn the loss of their king and navigate threats from within and outside their borders.",
+    "platform": "Disney+",
+    "leadCharacters": ["Shuri", "M'Baku"]
+  },
+  {
+    "id": 8,
+    "title": "The Marvels",
+    "year": 2022,
+    "description": "Carol Danvers teams up with Kamala Khan and Monica Rambeau to face a new threat.",
+    "platform": "Netflix",
+    "leadCharacters": ["Carol Danvers", "Kamala Khan"]
+  },
+  {
+    "id": 9,
+    "title": "Ant-Man and the Wasp: Quantumania",
+    "year": 2023,
+    "description": "Scott Lang, Hope van Dyne, and Hank Pym embark on a new adventure involving the Quantum Realm.",
+    "platform": "Disney+",
+    "leadCharacters": ["Scott Lang", "Hope van Dyne"]
+  },
+  {
+    "id": 10,
+    "title": "Guardians of the Galaxy Vol. 3",
+    "year": 2023,
+    "description": "The Guardians of the Galaxy face new challenges as they explore the cosmos.",
+    "platform": "Disney+",
+    "leadCharacters": ["Star-Lord", "Gamora"]
+  },
+  {
+    "id": 11,
+    "title": "Loki",
+    "year": 2023,
+    "description": "After the fall of Asgard, Loki faces new challenges and the fate of the universe lies in his palms. Along with a possible chance at redemption.",
+    "platform": "Disney+",
+    "leadCharacters": ["Loki", "Sylvie"]
+  },
+  {
+    "id": 12,
+    "title": "Fantastic Four",
+    "year": 2023,
+    "description": "A team of scientists gains superpowers after being exposed to cosmic radiation and must use their newfound abilities to save the world.",
+    "platform": "Netflix",
+    "leadCharacters": ["Mr. Fantastic", "Invisible Woman"]
+  },
+  {
+    "id": 13,
+    "title": "Deadpool 3",
+    "year": 2024,
+    "description": "Wade Wilson, aka Deadpool, embarks on a new adventure filled with action, humor, and pop culture references.",
+    "platform": "Netflix",
+    "leadCharacters": ["Deadpool", "Cable"]
+  },
+  {
+    "id": 14,
+    "title": "X-Men: The Mutants",
+    "year": 2024,
+    "description": "The X-Men, a team of mutants with extraordinary abilities, fight to protect a world that fears and hates them.",
+    "platform": "Disney+",
+    "leadCharacters": ["Professor X", "Magneto"]
+  },
+  {
+    "id": 15,
+    "title": "Captain America & The Winter Soldier",
+    "year": 2024,
+    "description": "A new hero takes up the mantle of Captain America and along with a friend faces new threats.",
+    "platform": "Disney+",
+    "leadCharacters": ["Sam Wilson", "Bucky Barnes"]
+  },
+  {
+    "id": 16,
+    "title": "New Avengers",
+    "year": 2024,
+    "description": "A new team of Avengers assembles to defend Earth against powerful threats.",
+    "platform": "Amazon prime",
+    "leadCharacters": ["Captain Marvel", "She-Hulk"]
+  },
+  {
+    "id": 17,
+    "title": "Hulk",
+    "year": 2024,
+    "description": "Bruce Banner grapples with his inner demons and the monstrous Hulk persona as he faces new challenges.",
+    "platform": "Amazon prime",
+    "leadCharacters": ["Bruce Banner", "Red Hulk"]
+  },
+  {
+    "id": 18,
+    "title": "The Thunderbolts",
+    "year": 2024,
+    "description": "A team of reformed villains forms to take on dangerous missions in exchange for leniency.",
+    "platform": "Amazon prime",
+    "leadCharacters": ["Baron Zemo", "Ghost"]
+  },
+  {
+    "id": 19,
+    "title": "Agents of S.H.I.E.L.D.",
+    "year": 2024,
+    "description": "The Strategic Homeland Intervention, Enforcement, and Logistics Division tackle global threats.",
+    "platform": "Netflix",
+    "leadCharacters": ["Phil Coulson", "Melinda May"]
+  },
+  {
+    "id": 20,
+    "title": "WandaVision",
+    "year": 2021,
+    "description": "Wanda Maximoff and Vision live idealized suburban lives, but begin to suspect everything is not as it seems.",
+    "platform": "Disney+",
+    "leadCharacters": ["Wanda Maximoff", "Vision"]
+  },
+  {
+    "id": 21,
+    "title": "Black Panther",
+    "year": 2018,
+    "description": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and confront a challenger from his country's past.",
+    "platform": "Disney+",
+    "leadCharacters": ["T'Challa", "Erik Killmonger"]
+  }
+]
