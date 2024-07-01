@@ -1,0 +1,70 @@
+[
+    {
+      "id": 1,
+      "title": "Spider-Man: No Way Home",
+      "year": 2021,
+      "description": "Peter Parker's world is turned upside down when his identity as Spider-Man is revealed, forcing him to seek help from Doctor Strange. However, when a spell goes wrong, villains from other dimensions start to appear, threatening everything he holds dear.",
+      "platform": "Netflix",
+      "leadCharacters": ["Peter Parker", "Doctor Strange"],
+      "image": "http://localhost:8080/static-files/images/posters/Spider-Man-NoWayHome.jpg"
+
+    },
+    {
+        "id": 2,
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "year": 2022,
+        "description": "Doctor Strange teams up with Scarlet Witch to confront dark forces from parallel dimensions.",
+        "platform": "Netflix",
+        "leadCharacters": ["Doctor Strange", "Scarlet Witch"],
+        "image": "http://localhost:8080/static-files/images/posters/Doctor_Strange_in_the_Multiverse_of_Madness_Poster.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Thor: Love and Thunder",
+        "year": 2022,
+        "description": "Thor teams up with Jane Foster, who transforms into the mighty Thor, to battle an ancient enemy.",
+        "platform": "Netflix",
+        "leadCharacters": ["Thor", "Jane Foster"],
+        "image": "http://localhost:8080/static-files/images/posters/Thor-Love_and_Thunder.jpg"
+    },
+      {
+        "id": 4,
+        "title": "The Marvels",
+        "year": 2022,
+        "description": "Carol Danvers teams up with Kamala Khan and Monica Rambeau to face a new threat.",
+        "platform": "Netflix",
+        "leadCharacters": ["Carol Danvers", "Kamala Khan"],
+        "image": "http://localhost:8080/static-files/images/posters/TheMarvels.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Fantastic Four",
+        "year": 2023,
+        "description": "A team of scientists gains superpowers after being exposed to cosmic radiation and must use their newfound abilities to save the world.",
+        "platform": "Netflix",
+        "leadCharacters": ["Mr. Fantastic", "Invisible Woman"],
+        "image": "http://localhost:8080/static-files/images/posters/Fantastic_Four.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Deadpool 3",
+        "year": 2024,
+        "description": "Wade Wilson, aka Deadpool, embarks on a new adventure filled with action, humor, and pop culture references.",
+        "platform": "Netflix",
+        "leadCharacters": ["Deadpool", "Cable"],
+        "image": "http://localhost:8080/static-files/images/posters/Deadpool3.jpeg"
+      },
+      {
+        "id": 7,
+        "title": "Agents of S.H.I.E.L.D.",
+        "year": 2024,
+        "description": "The Strategic Homeland Intervention, Enforcement, and Logistics Division tackle global threats.",
+        "platform": "Netflix",
+        "leadCharacters": ["Phil Coulson", "Melinda May"],
+        "image": "http://localhost:8080/static-files/images/posters/agentsofshield.jpeg"
+
+      }
+]
+
+
+

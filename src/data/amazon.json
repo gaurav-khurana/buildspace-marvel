@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "New Avengers",
+    "year": 2024,
+    "description": "A new team of Avengers assembles to defend Earth against powerful threats.",
+    "platform": "Amazon prime",
+    "leadCharacters": ["Captain Marvel", "She-Hulk"],
+    "image": "http://localhost:8080/static-files/images/posters/New_Avengers.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Hulk",
+    "year": 2024,
+    "description": "Bruce Banner grapples with his inner demons and the monstrous Hulk persona as he faces new challenges.",
+    "platform": "Amazon prime",
+    "leadCharacters": ["Bruce Banner", "Red Hulk"],
+    "image": "http://localhost:8080/static-files/images/posters/Hulk.jpg"
+  },
+  {
+    "id": 3,
+    "title": "The Thunderbolts",
+    "year": 2024,
+    "description": "A team of reformed villains forms to take on dangerous missions in exchange for leniency.",
+    "platform": "Amazon prime",
+    "leadCharacters": ["Baron Zemo", "Ghost"],
+    "image": "http://localhost:8080/static-files/images/posters/The_Thunderbolts.jpg"
+  }
+]

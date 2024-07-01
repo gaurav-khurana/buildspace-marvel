@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "Black Widow",
+    "year": 2021,
+    "description": "Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy, and the broken relationships left in her wake long before she became an Avenger.",
+    "platform": "Disney+",
+    "leadCharacters": ["Natasha Romanoff", "Yelena Belova"],
+    "image": "http://localhost:8080/static-files/images/posters/BlackWidow.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "year": 2021,
+    "description": "Shang-Chi must confront the past he thought he left behind when he is drawn into the web of the mysterious Ten Rings organization.",
+    "platform": "Disney+",
+    "leadCharacters": ["Shang-Chi", "Xialing"],
+    "image": "http://localhost:8080/static-files/images/posters/shangchi.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Eternals",
+    "year": 2021,
+    "description": "The Eternals, a race of immortal beings with superhuman powers who have secretly lived on Earth for thousands of years, reunite to battle the evil Deviants.",
+    "platform": "Disney+",
+    "leadCharacters": ["Ajak", "Ikaris"],
+    "image": "http://localhost:8080/static-files/images/posters/3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Black Panther: Wakanda Forever",
+    "year": 2022,
+    "description": "The kingdom of Wakanda faces turmoil as they mourn the loss of their king and navigate threats from within and outside their borders.",
+    "platform": "Disney+",
+    "leadCharacters": ["Shuri", "M'Baku"],
+    "image": "http://localhost:8080/static-files/images/posters/4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Ant-Man and the Wasp: Quantumania",
+    "year": 2023,
+    "description": "Scott Lang, Hope van Dyne, and Hank Pym embark on a new adventure involving the Quantum Realm.",
+    "platform": "Disney+",
+    "leadCharacters": ["Scott Lang", "Hope van Dyne"],
+    "image": "http://localhost:8080/static-files/images/posters/5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Guardians of the Galaxy Vol. 3",
+    "year": 2023,
+    "description": "The Guardians of the Galaxy face new challenges as they explore the cosmos.",
+    "platform": "Disney+",
+    "leadCharacters": ["Star-Lord", "Gamora"],
+    "image": "http://localhost:8080/static-files/images/posters/6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Loki",
+    "year": 2023,
+    "description": "After the fall of Asgard, Loki faces new challenges and the fate of the universe lies in his palms. Along with a possible chance at redemption.",
+    "platform": "Disney+",
+    "leadCharacters": ["Loki", "Sylvie"],
+    "image": "http://localhost:8080/static-files/images/posters/7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "X-Men: The Mutants",
+    "year": 2026,
+    "description": "The X-Men, a team of mutants with extraordinary abilities, fight to protect a world that fears and hates them.",
+    "platform": "Disney+",
+    "leadCharacters": ["Professor X", "Magneto"],
+    "image": "http://localhost:8080/static-files/images/posters/8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Captain America & The Winter Soldier",
+    "year": 2014,
+    "description": "A new hero takes up the mantle of Captain America and along with a friend faces new threats.",
+    "platform": "Disney+",
+    "leadCharacters": ["Sam Wilson", "Bucky Barnes"],
+    "image": "http://localhost:8080/static-files/images/posters/9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "WandaVision",
+    "year": 2021,
+    "description": "Wanda Maximoff and Vision live idealized suburban lives, but begin to suspect everything is not as it seems.",
+    "platform": "Disney+",
+    "leadCharacters": ["Wanda Maximoff", "Vision"],
+    "image": "http://localhost:8080/static-files/images/posters/10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Black Panther",
+    "year": 2018,
+    "description": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and confront a challenger from his country's past.",
+    "platform": "Disney+",
+    "leadCharacters": ["T'Challa", "Erik Killmonger"],
+    "image": "http://localhost:8080/static-files/images/posters/11.jpg"
+  }
+]
