@@ -3,7 +3,7 @@
 @use "../../stylesPartials/mixins" as *;
 @use "../../stylesPartials/variables" as *;
 
-div {
+main {
   height: 100vh;
   width: 100vw;
 
@@ -18,4 +18,11 @@ div {
   background-repeat: no-repeat;
 
   color: $color-primary-white;
+
+  @include flexbox(column, center, center);
+}
+
+h1,
+h3 {
+  font-size: 40px;
 }
