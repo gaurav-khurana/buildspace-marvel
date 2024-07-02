@@ -1,13 +1,23 @@
-import React from "react";
+// import React from "react";
 import ReactDOMServer from "react-dom/server";
-import App from "./App";
-// import CustomRouter from "./router";
+import { StaticRouter } from "react-router-dom/server";
+// import App from "./App";
+import CustomRouter from "./router";
 
-export function render() {
+interface IRenderProps {
+  path: string;
+}
+
+export function render({ path }: IRenderProps) {
   const html = ReactDOMServer.renderToString(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
+    // <React.StrictMode>
+    //   <App />
+    // </React.StrictMode>
+
+    <StaticRouter location={path}>
+      // <CustomRouter />
+      //{" "}
+    </StaticRouter>
   );
   return { html };
 }
@@ -16,7 +26,6 @@ export function render() {
 
 // import ReactDOMServer from "react-dom/server";
 // import { StaticRouter } from "react-router-dom/server";
-
 // import { Router } from "./router";
 
 // interface IRenderProps {
