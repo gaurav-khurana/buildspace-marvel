@@ -1,39 +1,46 @@
 import "./Disney.scss";
 // import NetflixIcon from "../../assets/icons/logo-Disney+.jpeg";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // import { Card } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import MarvelCard from "../../components/MarvelCard/MarvelCard";
+import { MarvelCardInterface } from "../../interfaces/interface";
 
 function Disney() {
-  const [disneyData, setDisneyData] = useState("");
+  const [disneyData, setDisneyData] = useState([]);
 
-  const website = "https://www.disneyplus.com/en-ca";
+  const website: string = "https://www.disneyplus.com/en-ca";
 
   useEffect(() => {
     const fetchDisneydata = async () => {
-      const response = await axios.get("http://localhost:8080/disney");
-      setDisneyData(response.data);
-      // console.log(disneyData);
+      try {
+        const response = await axios.get("http://localhost:5173/disney");
+        if (response.data) {
+          setDisneyData(response.data);
+          console.log(response.data);
+        }
+      } catch (err) {
+        console.log("Cant get data", err);
+      }
     };
 
     fetchDisneydata();
   }, []);
-  // console.log(disneyData);
+  console.log(disneyData);
 
   return (
     <>
       <div className="disney-container">
         {disneyData &&
-          disneyData.map((show) => (
+          disneyData.map((show: MarvelCardInterface) => (
             <MarvelCard
               key={show.id}
               id={show.id}
               website={website}
               title={show.title}
               year={show.year}
-              img={show.image}
+              image={show.image}
               platform={show.platform}
               description={show.description}
             />
