@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import MarvelCard from "../../components/MarvelCard/MarvelCard";
 import axios from "axios";
 import { MarvelCardInterface } from "../../interfaces/interface";
+import { Link } from "react-router-dom";
+import Button from "../../components/Button/Button";
 
 function PrimeVideo() {
   const website =
@@ -35,6 +37,12 @@ function PrimeVideo() {
               description={show.description}
             />
           ))}
+      </div>
+
+      <div className="btn-container">
+        <Link to="/platform">
+          <Button />
+        </Link>
       </div>
     </>
   );

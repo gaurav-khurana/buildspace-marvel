@@ -1,11 +1,12 @@
 import "./Disney.scss";
 // import NetflixIcon from "../../assets/icons/logo-Disney+.jpeg";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import { Card } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import MarvelCard from "../../components/MarvelCard/MarvelCard";
 import { MarvelCardInterface } from "../../interfaces/interface";
+import Button from "../../components/Button/Button";
 
 function Disney() {
   const [disneyData, setDisneyData] = useState([]);
@@ -45,6 +46,11 @@ function Disney() {
               description={show.description}
             />
           ))}
+      </div>
+      <div className="btn-container">
+        <Link to="/platform">
+          <Button />
+        </Link>
       </div>
     </>
   );

@@ -1,0 +1,21 @@
+@use "../../stylesPartials/global";
+@use "../../stylesPartials/typography";
+@use "../../stylesPartials/mixins" as *;
+@use "../../stylesPartials/variables" as *;
+
+.btn {
+  width: 10vw;
+  height: 5rem;
+  background-color: $color-secondary-black;
+  border: 0;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $color-secondary-black;
+  }
+
+  &--back {
+    // back
+  }
+}

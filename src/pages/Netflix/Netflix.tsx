@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import MarvelCard from "../../components/MarvelCard/MarvelCard";
 import { MarvelCardInterface } from "../../interfaces/interface";
+import { Link } from "react-router-dom";
+import Button from "../../components/Button/Button";
 
 function Netflix() {
   const website = "https://www.netflix.com/login";
@@ -38,6 +40,12 @@ function Netflix() {
               description={show.description}
             />
           ))}
+      </div>
+
+      <div className="btn-container">
+        <Link to="/platform">
+          <Button />
+        </Link>
       </div>
     </>
   );
