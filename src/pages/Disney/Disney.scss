@@ -7,6 +7,14 @@
   // background-color: $color-black;
   margin-inline: auto;
 
+  background: rgb(230, 36, 41);
+  background: linear-gradient(
+    200deg,
+    rgba(230, 36, 41, 1) 0%,
+    rgba(141, 22, 25, 1) 18%,
+    rgba(0, 0, 0, 1) 95%
+  );
+
   @include flexbox(row, space-evenly, center);
   flex-wrap: wrap;
 }
