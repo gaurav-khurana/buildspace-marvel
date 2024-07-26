@@ -1,8 +1,11 @@
 @use "../../stylesPartials/variables" as *;
 @use "../../stylesPartials/mixins" as *;
 
+.disney-container,
+.netflix-container,
 .primevideo-container {
   width: 100vw;
+  min-height: 92vh;
   padding-top: 2rem;
   // background-color: $color-black;
   margin-inline: auto;
@@ -19,7 +22,7 @@
 }
 
 .shows__card {
-  // color: $color-yellow;
+  color: $color-primary-yellow;
   width: 25vw;
   height: 40rem;
   margin-top: 2rem;

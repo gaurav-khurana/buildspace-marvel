@@ -1,4 +1,6 @@
-import "./PrimeVideo.scss";
+// import "./PrimeVideo.scss";
+import "./PlatformDetailsPage.scss";
+import "../../components/Button/Button.scss";
 import { useEffect, useState } from "react";
 import MarvelCard from "../../components/MarvelCard/MarvelCard";
 import axios from "axios";

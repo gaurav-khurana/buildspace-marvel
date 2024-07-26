@@ -1,4 +1,6 @@
-import "./Disney.scss";
+// import "./Disney.scss";
+// import "../PrimeVideo/PrimeVideo.scss";
+import "../PrimeVideo/PlatformDetailsPage.scss";
 // import NetflixIcon from "../../assets/icons/logo-Disney+.jpeg";
 import { Link } from "react-router-dom";
 // import { Card } from "react-bootstrap";
