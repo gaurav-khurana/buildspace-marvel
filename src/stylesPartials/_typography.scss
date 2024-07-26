@@ -28,15 +28,34 @@
 // }
 
 .App-title,
-.homepage__title {
+.homepage__title,
+.modal__title {
   font-size: $mob-font-sub-heading;
   line-height: 4rem;
   font-weight: 600;
 }
 
-.show {
+.shows__title,
+.modal__platform,
+.modal__icon {
   font-size: $mob-font-logo;
   line-height: 2.3rem;
+  font-weight: 600;
+}
+
+.btn__back,
+.btn__watch,
+.shows__year,
+.shows__platform,
+.shows__description {
+  font-size: $mob-font-body;
+  line-height: 2.3rem;
+}
+.shows__description {
+  font-size: $mob-font-body-small;
+  line-height: 2.3rem;
+}
+.shows__platform {
   font-weight: 600;
 }
 
